@@ -20,14 +20,22 @@ export default function NavBar() {
           <span>My List</span>
         </div>
         <div className="right">
-          <SearchIcon />
+          <SearchIcon className="icon" />
           <span>KID</span>
-          <NotificationsIcon />
+          <NotificationsIcon className="icon" />
           <img
             src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             alt="profile-img"
           />
-          <ArrowDropDownIcon />
+
+          <div className="profile">
+
+          <ArrowDropDownIcon className="icon" />
+          <div className="options">
+            <span>Settings</span>
+            <span>Logout</span>
+          </div>
+          </div>
         </div>
       </div>
     </div>
