@@ -30,7 +30,7 @@ router.delete("/:id", verify, async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(403).json("You are not allowed!");
+    res.status(403).json("You are not allowed to delete!");
   }
 });
 
