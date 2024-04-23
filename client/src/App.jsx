@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div>
       <Home />
-      <Watch />
+      {/* <Watch />
       <Register />
-      <Login />
+      <Login /> */}
     </div>
   );
 }
