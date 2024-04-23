@@ -7,10 +7,10 @@ import Watch from "./pages/watch/Watch";
 export default function App() {
   return (
     <div>
-      <Home/>
-      {/* <Watch/> */}
-      {/* <Register/> */}
-      {/* <Login/> */}
+      <Home />
+      <Watch />
+      <Register />
+      <Login />
     </div>
-  )
+  );
 }
